@@ -4,7 +4,9 @@ data = data.inventory;
 const problem3=()=>{
 
     for(var i = 0; i<data.length; i++){
-        arr.push(data[i].car_make);
+        let ele = data[i].car_model;
+        console.log(ele);
+        arr.push((ele));
     }
 
     arr.sort();
